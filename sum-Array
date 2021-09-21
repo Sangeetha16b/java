@@ -1,0 +1,7 @@
+var a=[22,33,44,55,66];
+var sum=0;
+for(var value in a)
+{
+  sum+=a[value];
+}
+console.log(sum);  
