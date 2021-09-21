@@ -1,0 +1,18 @@
+var b="Resume";
+console.log(b);
+var a="B Sangeetha";
+console.log("Name:"+" "+a);
+var bi="B TECH CSE";
+console.log("Qualification:"+" "+bi);
+var c="Sangeethabalu071297@gmail.com";
+console.log("EmailId:"+" "+c);
+var d="8940116935";
+console.log("phone Number:"+" "+d);
+var e="A1B+ve";
+console.log("Blood group:"+" "+e);
+var io="07/12/1997";
+console.log("Date of Birth"+" "+io);
+var ioo="16,chennai salai,old palakkarai,kumbakonam";
+console.log("Address:"+" "+ioo)
+var uiy="60%";
+console.log("percentage"+" "+uiy);
