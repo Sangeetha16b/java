@@ -1,0 +1,22 @@
+const readline=require("readline");
+const a=readline.createInterface(
+{
+  input:process.stdin  
+});
+const de=[];
+a.on("line",(data) =>
+{
+   de.push(data); 
+});
+a.on("close",() =>
+{
+    var r=de[0];
+    var g=r.split(",");
+    for(var i=0;i<g.length;i++)
+    {
+     if(g[i]%2!==0)
+     {
+         console.log(g[i]);
+     }
+    }
+});
