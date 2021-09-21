@@ -1,0 +1,5 @@
+const student={"student1":"101","Mohana":"102"};
+for(var index in student)
+{
+    console.log(student[index]);
+}
