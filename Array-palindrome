@@ -1,0 +1,16 @@
+var a=[56,34,45];
+var b=[34,45,56];
+for(var val in a)
+{
+    for(var val in b)
+    {
+        if(a[val]===b[val])
+        {
+            console.log("palindrome");
+        }
+        else
+        {
+            console.log("No,it is not a palindrome");
+        }
+    }
+}
