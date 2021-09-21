@@ -1,0 +1,2 @@
+const a="I love India";
+console.log(a.toUpperCase());
