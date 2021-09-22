@@ -1,0 +1,14 @@
+function f()
+{
+var a=13;
+var flag=0;
+var g=a/2;
+for(var i=2;i<g;i++)
+{
+    if(a%i!==0)
+    {
+        return true;
+    }
+}
+}
+console.log(f());
