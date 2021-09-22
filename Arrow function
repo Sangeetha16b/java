@@ -1,0 +1,6 @@
+const b=person =>
+{
+return person.name;
+return person.id;
+}
+console.log("parrot","GN45");
