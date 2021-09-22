@@ -1,0 +1,9 @@
+var a=[33,44];
+var b=[77,55];
+var c=a.length;
+var d=[...a,...b];
+console.log(d);
+var i=(c/2)+1;
+var j=(c/2)+2;
+console.log(d[i]);
+console.log(d[j]);
