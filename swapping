@@ -1,0 +1,11 @@
+function swapping(a,b)
+{
+   var c=b;
+    var d=a;
+    console.log("After Swapping:"+c+" "+d);
+}
+var a=5;
+console.log(a);
+var b=1;
+console.log(b);
+console.log(swapping(a,b));
