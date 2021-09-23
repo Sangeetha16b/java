@@ -1,0 +1,5 @@
+function celf(a)
+{
+    return a+273;
+}
+console.log("celsius to farenheit"+celf(5));
