@@ -1,0 +1,5 @@
+function mime(a)
+{
+    return a*0.278;
+}
+console.log(mime(1000));
