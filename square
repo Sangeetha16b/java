@@ -1,0 +1,5 @@
+function g(radius)
+{
+    return radius*radius;
+}
+console.log(g(5));
