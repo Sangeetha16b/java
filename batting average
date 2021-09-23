@@ -1,0 +1,7 @@
+function battingaverage(a,b,c,d,e,f)
+{
+ var d=a+b+c+d+e+f;
+ var e=d/6;
+ return e;
+}
+console.log(battingaverage(33,22,11,66,77,88));
