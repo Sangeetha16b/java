@@ -1,0 +1,6 @@
+const cgpa=(mark)=>
+{
+    var cgpa=0.1053*mark*100;
+    return cgpa;
+}
+console.log(cgpa(59.7));
