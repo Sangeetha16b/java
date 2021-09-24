@@ -1,0 +1,8 @@
+function sphere(r)
+{
+    var g=r*r*r;
+    var h=3.14;
+    var s=1.33*h;
+    console.log(s);
+}
+console.log(sphere(9));
