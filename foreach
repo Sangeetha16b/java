@@ -1,0 +1,2 @@
+const state=[{"name":"TamilNadu","capital":"chennai"},{"name":"Andhra","capital":"vishakapatinam"},{"name":"bihar","capital":"patna"}];
+state.forEach((element)=>console.log(element.name+" "+element.capital));
