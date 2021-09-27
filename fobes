@@ -1,0 +1,26 @@
+<html>
+<head>
+<title> </title>
+</head>
+<body>
+<label>FirstName</label>
+<Input type="text" id="box1" value=""> </Input>
+<label>LastName</label>
+<Input type="text" id="box2"value=""></Input>
+<label>Address</label>
+<Input type="text" id="box3"value=" "></Input>
+<label> City</label>
+<Input type="text"id="box4" value=""></Input>
+<label>State</label>
+<Input type="text" id="box5" value=" "></Input></hr>
+<label>Subscribe for:</label>
+<Input type="checkbox">1 year($19.95)</Input>
+<Input type="checkbox">2 years</Input>
+<label>Send me more information about:</label>
+<Input type="checkbox">Computer zine</Input>
+<Input type="checkbox">Fishing zinc</Input>
+<Input type="checkbox">cat-o-zinc</Input>
+<Button><a href="https://www.forbes.com" target="_next" rel="noreferer noopener">
+  submit</Button>
+</body>
+</html>
