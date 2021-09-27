@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Yes!I want to subscribe to Mag-o-zine</title>
+</head>
+<style>
+p
+{
+Background-color:"red";
+color:"white";
+}
+</style>
+<body>
+<label>FirstName</label>
+<Input type="text" value=""> </Input>
+<label>LastName</label>
+<Input type="text" value=""></Input>
+<label>Address</label>
+<Input type="text" value=" "></Input>
+<label> City</label>
+<Input type="text" value=""></Input>
+<label>State</label>
+<Input type="text" value=" "></Input><br>
+<label>Subscribe for:</label>
+<Input type="checkbox">1 year($19.95)</Input>
+<Input type="checkbox">2 years</Input><br>
+<label>Send me more information about:</label>
+<Input type="checkbox">Computer zine</Input>
+<Input type="checkbox">Fishing zinc</Input>
+<Input type="checkbox">cat-o-zinc</Input>
+</body>
+</html>
