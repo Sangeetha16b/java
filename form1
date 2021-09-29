@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<table border=2 border-width="10px" border-spacing="5px">
+<tr>
+<th>First Name</th>
+<th>Last Name<th>
+<th>Age</th>
+</tr>
+<tr>
+<td>John</td>
+<td>Doe</td>
+<td>78</td>
+</tr>
+<tr>
+<td>joe</td>
+<td>Doe</td>
+<td>56</td>
+</tr>
+<tr>
+<td>Jenny</td>
+<td>Doe</td>
+<td>38</td>
+</tr>
+<tr>
+<td>MS</td>
+<td>Dhoni</td>
+<td>46</td>
+</tr>
+</table>
+</body>
+</html>
