@@ -1,0 +1,19 @@
+1)HTTP 1.1
+  
+•	It is used for client-Server Architecture
+•	It is univarient
+       HTTP 2
+•	It is used for compression, multiplexing(broadcasting) and prioritization of data
+2)object and Internal representation of objects
+
+const g={ };
+g[name]=”Hammer”;
+console.log(g.name);
+                       where g is an object and name is the properties assigned to object “g”.
+In case,
+const g={“name”: “sculpture”};
+console.log(g.name);
+
+
+
+
