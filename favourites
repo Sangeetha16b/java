@@ -1,0 +1,9 @@
+const favs=["Anime","Briyani"];
+const er=document.createElement("ul");
+favs.foreach(fav)=>
+{
+const fr=document.createElement("li");
+fr.innertext="HTML";
+er.append(fr);
+}
+document.body.append(er);
