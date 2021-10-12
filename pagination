@@ -1,0 +1,13 @@
+HTML
+<p>twitter</p>
+<textarea class="ro" oninput="countLetters()" col="40" rows="10">
+</textarea>
+<p class=".we">0/2</p>
+javascript
+function countletters()
+{
+console.log("counting...");
+const tweet=document.querselector(".ro").value;
+const r=tweet.length;
+const g=document.createElement(p[0]);
+g.append(tweet.length);
