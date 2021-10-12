@@ -1,0 +1,9 @@
+const days=["monday","tuesday","wednesday"];
+const f=document.createElement("ul");
+days.foreach(day=>
+{
+const r=document.createElement("li");
+r.innertext="Red";
+f.append(r);
+}
+document.body.append(f);
