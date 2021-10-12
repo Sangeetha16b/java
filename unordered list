@@ -1,9 +1,9 @@
 const players=["virat","Dhoni","sachin","jadeja"];
-const v=document.createElement("ul");
+const v=document.querselector("ul");
 players.forEach((player) =>
 {
- const r=document.createElement("li");
-  r.innertext("Hi");
+ const r=document.queryselector("li");
+  r.innertext="hi";
   v.append(r);
 });
 document.body.append(v);
