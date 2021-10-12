@@ -1,8 +1,12 @@
 HTML
+<html>
+<head>
 <p>twitter</p>
 <textarea class="ro" oninput="countLetters()" col="40" rows="10">
 </textarea>
 <p class=".we">0/2</p>
+</head>
+</html>
 javascript
 function countletters()
 {
