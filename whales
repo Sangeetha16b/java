@@ -1,0 +1,9 @@
+const whales=["sangeetha","swetha"];
+const v=document.queryselector("ul");
+whales.foreach((whale)=>
+{
+const g=document.queryselector("li");
+g.innertext="hello everyone";
+v.append(g);
+}
+document.body.append(v);
