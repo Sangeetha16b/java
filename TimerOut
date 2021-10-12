@@ -1,3 +1,6 @@
+HTML:
+<h1>></h1>
+javascript:
 setTimeout(()=>
 {
 const v=document.queryselector("h1").innertext="10";
