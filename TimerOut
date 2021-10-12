@@ -1,0 +1,44 @@
+setTimeout(()=>
+{
+const v=document.queryselector("h1").innertext="10";
+setTimerOut(()=>
+{
+const u=document.queryselector("h1").innertext="9";
+setTimerOut(()=>
+{
+const f=document.queryselector("h1").innertext="8";
+setTimerout(()=>
+{
+document.queryselector("h1").innertext="7";
+setTimerout(()=>
+{
+document.querselector("h1").innertext="6";
+setTimerout(()=>
+{
+document.querselector("h1").innertext="5";
+setTimerout(()=>
+{
+document.queryselector("h1").innerText="4";
+setTimerout(()=>
+{
+document.queryselector("h1").innertext="3";
+setTimerOut(()=>
+{
+document.queryselector("h1").innertext="2";
+setTimerout(()=>
+{
+document.querselector("h1").innertext="1";
+setTimerOut(()=>
+{
+document.queryselector("h1").innertext="HAPPY INDEPENDENCE DAY";
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
+},1000*2);
