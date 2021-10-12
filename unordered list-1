@@ -1,0 +1,13 @@
+HTML
+<h1 class="reds"></h1>
+
+javascript
+const reds=[1,2,3,4,5];
+const i=document.createElement(ul);
+reds.forEach(red =>
+{
+const j=document.createElement(li);
+j.innertext=reds;
+i.append(j);
+});
+document.body.append(i);
