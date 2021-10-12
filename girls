@@ -1,0 +1,8 @@
+const girls=[1,2,3,4,5];
+const v=document.queryselector("ul");
+girls.foreach((girl)=>
+const f=document.querselector("li");
+f.innertext="sangeetha";
+v.append(f);
+}
+document.body.append(v);
