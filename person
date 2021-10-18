@@ -1,0 +1,6 @@
+const person={"name":"Sangeetha","age":"12";"name":"Swetha","age":"21"}
+for(var name in person)
+{
+console.log(person[name]);
+console.log(person.age);
+}
