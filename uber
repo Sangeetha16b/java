@@ -1,0 +1,5 @@
+const price={180,160,240,480};
+for(var pr in price)
+{
+console.log(price[pr]);
+}
