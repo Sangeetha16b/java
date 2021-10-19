@@ -1,0 +1,53 @@
+css
+.user-container
+{
+    background-color:white;
+    display:flex;
+    gap:1 rem;
+    margin:2 rem;
+    padding:1 rem;
+    border-radius:1 rem;
+    transition:all 0.2s
+}
+.body
+{
+    background-image:linear-gradient(torighttop,#1dc3fd,#83a8ff,#d482df,#fb5d93,#eb5f39);
+
+}
+.user-avatar
+{
+ border-radius:50%;
+}
+.user-name{
+    font-size:1.4rem;
+    font-family: "pacific",cursive;
+}
+.user-container:hover{
+    transform:scale(1.1);
+    box-shadow:15px 15px 38px -11px rgba(0,0,0,0.5);
+}
+javascript
+async fnction getallusers()
+{
+    const data=await fetch("https://6c98aa87772a76001723b57.mockapi.io/user,{method:"post});
+    const sers=await data.json();
+    const usercontainer=document.queryselector(".user-list");
+    users.foreach((user)=>
+    {
+        usercontainer.innerHTML+='<div class="usercontainer">
+        <img src="${user.avatar}" class ="user-avatar" alt="${user.name}"/>
+        <div>
+        <p class="user-name">${user.name}</p>
+     <button onclick="deleteuser">delete</button>
+        </div>
+    </div>'
+    
+          console.log(users);
+    }
+}
+async function deleteuser(UserId)
+{
+    console.log("delete",userId);
+    const data=await fetch("https://6c98aa87772a76001723b57.mockapi.io/user"+UserId,{method:"delete"});
+    getAllusers();
+}
